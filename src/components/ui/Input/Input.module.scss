@@ -1,0 +1,21 @@
+.input {
+  background-color: transparent;
+  font-size: 14px;
+  padding-left: 5px;
+  width: 100%;
+  border: none;
+
+  background: none;
+  outline: none;
+}
+
+.input:focus {
+  border: none;
+  //   border: 1px solid red;
+  //   border: none;
+}
+.input:hover {
+  border: 0;
+}
+.input:focus-visible {
+}

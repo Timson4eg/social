@@ -1,0 +1,35 @@
+.myButton {
+  color: rgb(165, 168, 168);
+  min-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myButton:hover {
+  svg {
+    color: white;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+svg {
+  width: 25px;
+  height: 25px;
+}
